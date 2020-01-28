@@ -1,0 +1,8 @@
+# .gitignore
+
+# executables
+elliott2ascii
+hex8
+splitter
+trim-runout
+vis

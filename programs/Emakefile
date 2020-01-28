@@ -1,0 +1,9 @@
+# Emakefile
+
+.PHONY: all
+all:
+	cc -g -o elliott2ascii elliott2ascii.c
+	cc -g -o hex8 hex8.c
+	cc -g -o vis vis.c
+	cc -g -o trim-runout trim-runout.c
+	cc -g -o splitter splitter.c
