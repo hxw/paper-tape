@@ -1,0 +1,9 @@
+# Emakefile
+
+.PHONY: all
+all:
+	sh compile.sh Reader mega
+
+.PHONY: emacs-1
+emacs-1:
+	sh program-mega.sh arduino
